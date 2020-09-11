@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+ul>li {
+    list-style: none;
+    float: right;
+    margin: 10px 12px;
+}
+
+.header ul>li:hover>a {
+    text-decoration: underline;
+}
+
+/* its anchor tag use as button */
+
+
+.sign_up {
+    background: linear-gradient(rgb(27, 106, 252), rgb(0, 89, 255));
+    width: 60px;
+    border: none;
+    height: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: -3px;
+    padding: 8px;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+}
+
+.sign_up:hover{
+    box-shadow: 0px 1px 2px 0.2px rgb(126, 126, 126);
+}
+
+#sign_up_list a{
+    text-decoration: none;
+}
+
+/* Main Section */
+
+.main {
+    margin-top: 10px;
+}
+
+/* LOGO */
+
+.logo {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid black; */
+}
+
+.logo>h4 {
+    font-size: 20px;
+}
+
+/* Search */
+
+.search {
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.search>#searchBar {
+    width: 650px;
+    height: 50px;
+    box-shadow: 0px 1px 2px 0.2px rgb(190, 190, 190);
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 2px;
+    transition: 0.1s ease-in-out;
+    padding: 15px;
+    font-size: 18px;
+    transition: 0.1s ease-in-out;
+}
+
+.search>#searchBar:hover {
+    box-shadow: 0px 0.2px 5px 1.5px rgb(206, 206, 206);
+}
+
+/* Button */
+
+.button {
+    margin-left: 40%;
+}
+
+.button>button {
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background: rgb(231, 231, 231);
+    color: #757575;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.button>button:hover {
+    background: linear-gradient(rgb(238, 237, 237), rgb(224, 224, 224));
+    border: 1px solid rgb(177, 176, 176);
+    box-shadow: 0px 1px 2px 0.2px rgb(190, 190, 190);
+    cursor:pointer;
+}
+
+/* language */
+
+.lang {
+    margin-left:34%;
+    margin-top: 20px;
+    width: 600px;
+    padding: 5px;
+    color: grey;
+    font-size: 14px;
+}
+
+.lang h3 {
+    float: left;
+}
+
+.lang a {
+    float: left;
+    margin: 0px 5px;
+    color: blue;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(233, 233, 233);
+    color: rgb(78, 78, 78);
+    font-weight: 50px;
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+.country {
+    border: 0.4px solid rgb(201, 201, 201);
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.left>h4 {
+    float: left;
+    margin: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.right>h4 {
+    float: right;
+    margin: 10px;
+}
+
+.footer h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
